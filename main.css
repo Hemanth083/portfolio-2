@@ -1,0 +1,127 @@
+h1 {
+  color: black;
+  font-size: 35px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+  color: #01a9ac;
+  border-bottom: 2px solid black;
+  font-size: 35px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top left, #01a9ac 80%, white 20%);
+  padding-bottom: 200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 100px;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  background-image: linear-gradient(to top left, white 90%, #01a9ac 10%);
+}
+
+.hemanth {
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 1px 20px black;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+p {
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 22px;
+}
+.contact {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 50px;
+}
+footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 50px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 1px 20px white;
+}
+a{
+  text-decoration:none;
+  color: black;
+
+}
+button{
+  padding: 15px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+@media (max-width:800px) {
+  nav {
+    flex-direction: column;
+  }
+  .main{
+    background-image: linear-gradient(to top, #01a9ac,white );
+ 
+  }
+.right{
+  flex-direction: column;
+}
+  h1,
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+  .contact {
+    grid-gap: 30px;
+  }
+  button{
+    padding: 8px;
+  }
+  a{
+    font-size: 5px;
+  }
+  img{
+    width: 15px;
+  }
+}
